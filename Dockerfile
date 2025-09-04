@@ -1,4 +1,4 @@
-FROM registry.access.redhat.com/ubi9/ubi:9.6
+FROM registry.access.redhat.com/ubi9/ubi:9.6-1756915113
 
 RUN dnf -y install cmake gcc-c++ git-core
 
